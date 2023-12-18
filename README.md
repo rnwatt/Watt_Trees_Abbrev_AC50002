@@ -32,6 +32,7 @@ for i, letter in enumerate(abbreviation):
             # Add the position value and letter score to the total score
             score += positionValue + letterScore
 How to find out the smallest score for each abbreviation - Used in smallest score function
+
 for fileLine, abbr_list in abbrList:
             if abbr_list: # Check if the abbreviation list is not empty
             # Find the abbreviation with the smallest score for the current phrase
